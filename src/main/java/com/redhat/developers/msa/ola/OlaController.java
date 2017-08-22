@@ -80,6 +80,6 @@ public class OlaController {
     @RequestMapping(method = RequestMethod.GET, value = "/health")
     @ApiOperation("Used to verify the health of the service")
     public String health() {
-        return "I'm ok";
+        return "I'm ok Alex, I'm learning something new";
     }
 }
